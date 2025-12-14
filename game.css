@@ -53,3 +53,9 @@ svg path:hover{
   box-shadow: none;
   transform: none;
 }
+.correct{
+  fill:green;
+}
+.wrong{
+  fill: red;
+}
