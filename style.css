@@ -19,9 +19,9 @@ h4 {
 }
 
 h1 {
-  font-size: 5.4rem;
+  font-size: 3.6rem;
   color: #56a5eb;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 h1 > span {
@@ -51,10 +51,6 @@ h3 {
   max-width: 80rem;
   margin: 0 auto;
   padding: 2rem;
-}
-
-.container > * {
-  width: 100%;
 }
 
 .flex-column {

@@ -50,7 +50,7 @@ function nextQuestion() {
     document.getElementById("score").textContent=
     "Final Score:"+score;
     gameRunning=false;
-    gameBtn.textContent="Start Game.";
+    gameBtn.textContent="Restart";
     currentAnswer="";
     return;
     }
@@ -59,7 +59,7 @@ function nextQuestion() {
     currentAnswer=nextDistrict.id;
     
     document.getElementById("question").textContent=
-    "Find this :"+ currentAnswer;
+    "Find this: "+ currentAnswer;
 }
 districts.forEach(district => {
 
