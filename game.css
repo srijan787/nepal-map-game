@@ -1,15 +1,21 @@
-.container{
-  gap: 2.5rem;
-  padding-top: 3rem;
-}
 .info{
   max-width: 40rem;
+} 
+.mapArea {
+  width: 90%;
+  max-width: 900px;
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
 }
-.mapArea{
-  height: auto;
-  width: 100vw;
-  max-width: 1200px;
+
+.container {
+  min-height: 100vh;
+  justify-content: flex-start; /* push info + map from top */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  overflow-x: hidden; /* remove horizontal scroll */
 }
+
 #question {
   font-size: 2.2rem;
   margin-bottom: 1rem;
@@ -30,6 +36,7 @@ svg path:not(.correct):not(.wrong):hover{
     fill:aqua;
     transition: .5s;
     cursor: pointer;
+    filter: drop-shadow(0 0 5px #00ffff);
 }
 
 svg path.correct, svg path.wrong{

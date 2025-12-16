@@ -51,6 +51,8 @@ function startGame() {
     skipCount=0;
 
     skipBtn.disabled=false;
+    skipBtn.textContent=`Skip(${MAX_SKIPS})`;
+    document.getElementById("skipDone").textContent="";
 
     districts.forEach(district => district.classList.remove("correct","wrong"));
 
