@@ -32,6 +32,9 @@ svg path:not(.correct):not(.wrong):hover{
     cursor: pointer;
 }
 
+svg path.correct, svg path.wrong{
+  pointer-events: none;
+}
 .correct{
   fill:green;
 }
