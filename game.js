@@ -162,15 +162,9 @@ function shuffled(){
 function nextQuestion() {
 
     if(districtQueue.length===0){
-    document.getElementById("question").textContent=
-    "Game over!";
-    document.getElementById("score").textContent=
-    "Final Score:"+score;
-    gameRunning=false;
-    gameBtn.textContent="Restart";
-    currentAnswer="";
-    currentDistrict=null;
-    return;
+    localStorage.setItem("latestScore",score);
+
+    return window.location.assign("end.html");
     }
 
     currentDistrict=districtQueue.pop();

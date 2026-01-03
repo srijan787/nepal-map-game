@@ -9,18 +9,19 @@
 <body>
     <div class="container">
         <div id="end" class="flex-center flex-column">
-            <h1 id="finalscore">0</h1>
+            <h1 id="finalScore"></h1>
             <form>
                 <input type="text"
                 name="username"
                 id="username"
-                placeholder="Srijan">
-            <button id="saveScoreBtn" class="btn" type="submit" onclick="saveScore(event)">Save</button>
+                placeholder="username">
+            <button id="saveScoreBtn" class="btn" type="submit" onclick="saveScore(event)" disabled>Save</button>
             </form>
             <a class="btn" href="game.html">Play Again</a>
             <a class="btn" href="highscores.html">High Scores</a>
             <a class="btn" href="index.html">Go Home</a>
         </div>
     </div>
+    <script src="end.js"></script>
 </body>
 </html>

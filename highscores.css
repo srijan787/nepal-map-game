@@ -1,0 +1,7 @@
+#highScoreList {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+.high-score:hover {
+    transform: scale(1.25);
+}
